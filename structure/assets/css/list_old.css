@@ -1,0 +1,107 @@
+/* List View starts here */
+
+.list-template {
+    padding: 15px 0;
+    margin: 0;
+    background-color: #4a97d2;
+}
+
+.list-template:nth-child(odd) {
+    background-color: #59a0d6;
+}
+
+.list-template .images {
+    padding-right: 0;
+}
+
+.list-template .images > a {
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.list-template.single-image .images img {
+    height: 200px;
+}
+
+.list-template.two-images .images img {
+    height: 110px;
+}
+
+.list-template.multi-images .images img {
+    height: 72px;
+}
+
+.list-template dt {
+    font-weight: normal;
+}
+
+.list-template dl {
+    margin-bottom: 0;
+}
+
+.list-template dd {
+    margin: 0 0 10px 20px;
+    font-size: 14px;
+}
+
+.list-template dd.two-links a:first-child {
+    margin-right: 20px;
+}
+
+
+/* List View finishes here */
+
+@media screen and (max-width: 1199px) {
+    /* list view starts */
+    .list-template.single-image .images img {
+        height: 150px;
+    }
+    .list-template.two-images .images img {
+        height: 70px;
+    }
+    .list-template.multi-images .images img {
+        height: 70px;
+    }
+    /* list view finishes */
+}
+
+@media screen and (max-width: 991px) {
+    /* list view starts */
+    .list-template.single-image .images img {
+        height: 200px;
+    }
+    .list-template.two-images .images img {
+        height: 100px;
+    }
+    .list-template.multi-images .images img {
+        height: 100px;
+    }
+    /* list view finishes */
+}
+
+@media screen and (max-width: 767px) {
+    /* list view starts */
+    .list-template.single-image .images > a {
+        float: none;
+        margin: 0 15px 20px 0;
+    }
+    .list-template.single-image .images img {
+        margin: auto;
+    }
+    /* list view finishes */
+}
+
+@media screen and (max-width: 479px) {
+    /* list view starts */
+    .list-template.single-image .images img {
+        height: 160px;
+    }
+    .list-template.two-images .images img {
+        height: 90px;
+    }
+    .list-template.multi-images .images img {
+        height: 60px;
+    }
+    /* list view finishes */
+}

@@ -1,0 +1,42 @@
+{
+    "Titulo": [
+        "Una cascada de amor",
+        "Nuévalos",
+        "Zaragoza"
+    ],
+
+    "Fecha": [
+        "hace 11 años 22 semanas",
+        "hace 11 años 22 semanas",
+        "hace 11 años 22 semanas"        
+    ],
+
+    "Recuerdo": [
+        ["h.jpg", "v.jpg"],
+        "h.jpg", 
+        ["h.jpg", "h.jpg"]
+    ],
+
+    "Recuerdo-alts": [
+        ["alt11", "alt12"],
+        "alt21", 
+        ["alt31", "alt32"]
+    ],
+
+    "aspect_ratios": [
+        [1.33, 0.75],
+        1.33, 
+        [1.33, 1.33]       
+    ],
+
+
+    "Acceso": {
+        "Ir al Recuerdo": [
+            "http://ositapelona.com/recuerdo/2005/europa/spa_spain/spa_nuevalos/spa_embalse_de_entrepenas/spa05nue_brqx/2005_europa_spain_nuevalos_embalse_de_entrepenas_recuerdo_embalse_01_al_menos_una_vez_escapada_spa05nue_brqx_nuevalos",
+            "http://ositapelona.com/recuerdo/2005/europa/spa_spain/spa_nuevalos/spa_monasterio_de_piedra/spa05pie_brqx/2005_europa_spain_nuevalos_monasterio_de_piedra_recuerdo_cascada_20_lo_mejor_del_pais_escapada_spa05pie_brqx_una_cascada_de_amor",
+            "http://ositapelona.com/recuerdo/2005/europa/spa_spain/spa_medinaceli/zzl_sin_lugar/spa05med_brqx/2005_europa_spain_medinaceli_sin_lugar_recuerdo_zno_naturaleza_00_sin_encanto_escapada_spa05med_brqx_medinaceli"
+        ]
+    }
+
+
+}

@@ -1,0 +1,78 @@
+0145xFIX 
+0150x0090 
+0192xFIX 
+0290xFIX 
+0320x0240 
+0384xFIX 
+0442xFIX 
+0640x0480 
+0780xFIX 
+0884xFIX 
+1024x0768 
+1560xFIX 
+2048x1536 
+2560x1920 
+3264x2448 
+4608x3456 
+6100x3050
+________________________________
+
+
+ratina1:
+
+V        41x54     82 		PC+Mob small images in list view
+H		 72x54     144		PC+Mob small images in list view
+
+H		 1136x864  	2272	PC lightbox
+V		 642x864   	1284	PC lightbox
+
+
+H,V		 508x383	1016	Mob lightbox
+
+H,V		 317  PC	634		PC table view
+
+H,V		 442  Mob	884		Mobile view
+__________________________________
+
+41 (72 82) 144 317 (442_M 508_M_L) (634 642) (884 1016_L) (1136_L 1284_L) 2272_L
+
+|	 |		 |   |		  |				  |		     |			   |		   |
+
+41   82   	145 320 	 442			 640    	884   		  1280		  2560
+
+_______________________________________
+
+rimg_V_R1_41  	//list view small ratina1 V 
+
+rimg_V_R1_82	//list view small ratina2 V
+
+rimg_H_R1_82  	//list view small ratina1 H  
+
+rimg_H_R2_145	//list view small ratina2 H 
+
+rimg_HV_R1_320  //table view Desktop ratia1 H+V  
+
+rimg_HV_R1_442  //table view mobile ratina1 H+V
+
+rimg_HVL_R1_442  //table view mobile ratina1 lightbox H+V
+
+rimg_HV_R2_640	//table view Desktop ratina2 H+V  
+
+rimg_HV_R2_884 //table view mobile ratina2 H+V  
+
+rimg_HVL_R2_884 //table view mobile ratina2 lightbox H+V  
+
+rimg_H_R1_1280  //table+list desktop ratina1 lightbox H
+
+rimg_V_R1_640  //table+list desktop ratina1 lightbox V 
+
+rimg_V_R1_1280  //table+list desktop ratina2 lightbox V  
+
+rimg_H_R1_2560  //table+list desktop ratina2 lightbox H  
+
+
+
+
+
+
+

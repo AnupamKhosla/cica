@@ -1,0 +1,13 @@
+{
+	"image_name": ["v.jpg","v.jpg","h.jpg"],
+
+	"aspect_ratio": [0.75,0.75,1.33],
+
+	"image_description": [
+		"NEW TABLE JSON2",
+		["HELLO, I AM NEW JSON2 WITH A LINK TO MY RIGHT", "http://cica.dbrqx.com/vis/highrnd/personal/Nueva%20Zelanda"],
+		 "Hey yo, H up there!!??"
+	],
+
+	"image_alt": ["alt1", "alt2","alt3"]
+}

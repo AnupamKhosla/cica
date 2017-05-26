@@ -1,0 +1,139 @@
+        body {
+            background-color: #72B4E6;
+        }
+        .icons .individual-link.funny-effect .image-wrapper {            
+            overflow: hidden;
+            /*funny-effect class is just to set ovverflo so that animatable divs son't show without hover.
+              In future if these effects are used on all images then overflow should be intrinisically added not with
+              this speacial funny-effect class*/            
+        }
+        .icons .individual-link img {
+            height: 60px;
+        }
+
+        .icons .individual-link .half-overlay1,
+        .icons .individual-link .half-overlay2 {
+            width: 150%;
+            height: 150%;
+            transform: rotate(-45deg);
+            position: absolute;
+            background-color: rgba(255,255,255,0.8);  
+            overflow: hidden;                    
+            left: -130%;
+            top: -130%;
+            transition-property: left, right, top, bottom;
+            transition-duration: 0.4s, 0.4s, 0.4s, 0.4s;
+            transition-timing-function: ease-out, ease-out, ease-out, ease-out;
+        }     
+
+        .icons .individual-link .half-overlay2 {
+            background-color: rgba(255,255,255,0.8);            
+            left: auto;
+            top: auto;;
+            right: -130%;
+            bottom: -130%;
+        }
+        
+        .icons .half-overlay1 > img,
+        .icons .half-overlay2 > img {
+            width: 40px;
+            height: auto;
+            position: absolute;
+            top: 80%;
+            left: 30%;
+            transform: rotate(45deg);
+        }
+        
+        .icons .half-overlay2 > img {            
+            top: -18%;
+            left: 30%;
+        }
+
+
+        .icons .individual-link a.image-wrapper:hover .half-overlay1 {
+            left: -79%;
+            top: -79%;
+        }
+        
+        
+        .icons .individual-link a.image-wrapper:hover .half-overlay2 {
+            right: -77%;
+            bottom: -77%;
+        }
+
+
+        /*---*/
+
+        .icons .individual-link .up-overlay1,
+        .icons .individual-link .up-overlay2 {
+            width: 110%;
+            height: 100%;            
+            position: absolute;
+            background-color: rgba(255,255,255,0.8);  
+            overflow: hidden;                    
+            left: -5px;
+            top: -100%;
+            transition-property: left, right, top, bottom;
+            transition-duration: 0.4s, 0.4s, 0.4s, 0.4s;
+            transition-timing-function: ease-out, ease-out, ease-out, ease-out;
+        }
+
+        .icons .individual-link .up-overlay2 {           
+            top: auto;
+            bottom: -100%;           
+        }
+
+         .icons .individual-link a.image-wrapper:hover .up-overlay1 {
+          top: -50%;
+        }        
+        
+        .icons .individual-link a.image-wrapper:hover .up-overlay2 {
+           bottom: -50%;
+        }
+
+        .icons .up-overlay1 img,
+        .icons .up-overlay2 img {
+                position: absolute;
+                height: 40px;
+                transform: translateX(-50%);
+                bottom: -20px;
+        }
+        .icons .up-overlay2 img {
+                bottom: auto;
+                top: -20px;
+        }
+
+        .icons .individual-link .overlay {
+            position: absolute;
+            background-color: rgba(255,255,255,.8);
+            opacity: 0;
+            transition: opacity .4s ease-out;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .icons .individual-link .overlay img {
+            height: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .icons .individual-link a.image-wrapper:hover .overlay {
+            opacity: 1;
+        }
+        /*-- Icon+text to be added to style.css --*/
+        
+
+  
+
+		@media only screen and (max-width: 991px) {
+           
+		}
+
+		@media only screen and (max-width: 767px) {
+     
+		}
+        
+        /*add focus style for hover too 14 dec*/
